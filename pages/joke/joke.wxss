@@ -1,0 +1,14 @@
+.joke{
+  width:90%;
+  margin:auto;
+  height: auto;
+  border:1px solid #ccc;
+  box-shadow: 5px 5px 10px 5px rgba(0, 255, 128, 0.5);
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing:border-box ;
+}
+.joke .date{
+  color: #ccc;
+  margin-top: 5px;
+}

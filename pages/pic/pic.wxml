@@ -1,0 +1,82 @@
+<!-- <view class="joke">
+  <view class="content">
+    锄禾日当午，
+    汗滴禾下土。
+    谁知盘中餐，
+    粒粒皆辛苦。
+  </view>
+  <view>
+    <image src="./images/lisa.gif"></image>
+  </view>
+  <view class="date">
+ 2020/10/28
+  </view>
+</view>
+<view class="joke">
+  <view class="content">
+    锄禾日当午，
+    汗滴禾下土。
+    谁知盘中餐，
+    粒粒皆辛苦。
+  </view>
+  <view>
+    <image src="./images/lisa.gif"></image>
+  </view>
+  <view class="date">
+ 2020/10/28
+  </view>
+</view>
+<view class="joke">
+  <view class="content">
+    锄禾日当午，
+    汗滴禾下土。
+    谁知盘中餐，
+    粒粒皆辛苦。
+  </view>
+  <view>
+    <image src="./images/lisa.gif"></image>
+  </view>
+  <view class="date">
+ 2020/10/28
+  </view>
+</view>
+<view class="joke">
+  <view class="content">
+    锄禾日当午，
+    汗滴禾下土。
+    谁知盘中餐，
+    粒粒皆辛苦。
+  </view>
+  <view>
+    <image src="./images/lisa.gif"></image>
+  </view>
+  <view class="date">
+ 2020/10/28
+  </view>
+</view>
+<view class="joke">
+  <view class="content">
+    锄禾日当午，
+    汗滴禾下土。
+    谁知盘中餐，
+    粒粒皆辛苦。
+  </view>
+  <view>
+    <image src="./images/lisa.gif"></image>
+  </view>
+  <view class="date">
+ 2020/10/28
+  </view>
+</view> -->
+<view class="joke" wx:for="{{jokes}}" wx:key="index">
+  <view class="content">
+   {{item.content}}
+  </view>
+  <view class="img">
+    <image src="{{item.url}}"></image>
+  </view>
+  <view class="date">
+   {{item.updatetime}}
+  </view>
+</view>
+

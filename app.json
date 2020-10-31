@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/joke/joke",
+    "pages/pic/pic",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],  
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#268dcd",  
+    "backgroundColor": "#ffffff", 
+    "borderStyle": "white", 
+    "list": [
+      {
+        "text": "笑话",
+        "pagePath": "pages/joke/joke",
+        "iconPath": "images/ic_joke_gray.png",
+        "selectedIconPath": "images/ic_joke_blue.png"
+      },
+      {
+        "text": "趣图",
+        "pagePath": "pages/pic/pic",
+        "iconPath": "images/ic_joke_gray.png",
+        "selectedIconPath": "images/ic_joke_blue.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
